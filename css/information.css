@@ -1,0 +1,86 @@
+section .box{ 
+    width:1300px; 
+    margin:0 auto 7rem; 
+    color:var(--text-color07);
+}
+
+.table{ 
+    display:flex; 
+    flex-direction:column;
+    align-items:center;
+    margin-bottom:10rem;
+}
+/* 축의 반대방향으로 center로 정렬하겠다 */
+
+.notice{
+    gap:3.5rem;
+}
+.borderBox{
+    width:450px;
+    height:100px;
+    background:linear-gradient(45deg,transparent 5%, var(--text-color06) 0) ;
+    background-repeat:no-repeat;
+    background-position:0 -8px;
+    border-bottom:2px solid var(--text-color06);
+    text-align:center;
+}
+.noti::after{
+    content:'구매 후 확인해주세요';
+    display:block;
+    font-size:26px;
+    transform:translateY(5px);
+}
+.table h2{
+    display:inline-block;
+    line-height:98px;
+    font-size:50px;
+}
+
+
+.box .inner{ 
+    padding:2rem 0; 
+}
+.inner>table{
+    border-spacing:0 2rem;
+}
+.inner table tr:nth-child(2n+1){
+    background-color: var(--text-color11);
+}
+.inner table tr:nth-child(2n){
+    background-color: var(--text-color06);
+}
+.notice .inner th{ 
+    width:10rem; 
+    font-size:50px;
+    font-weight:normal;
+}
+.notice .inner td{ 
+    width:67rem;
+}
+.inner td{ 
+    font-size:24px;
+}
+
+
+
+.qa .inner th{ 
+    width:20rem; 
+    font-size:30px;
+}
+.qa .inner td{ 
+    width:52rem;
+}
+.qa th b{ 
+    display:block; 
+    height:70px;
+}
+
+.qa [colspan='2']{ 
+    text-align:center; 
+}
+.cc .cancel{ 
+    height:500px; 
+}
+.cc .cancel th{  
+    font-size:30px; 
+}

@@ -1,0 +1,312 @@
+
+/* tabs */
+section{ 
+        margin-bottom:2rem; 
+}
+.tabs{
+        width:1300px;
+        margin:auto; 
+        margin-bottom:7rem;
+}
+.tabs ul{ 
+        width:100%; 
+        display:flex; 
+        justify-content:space-between;
+        margin-bottom:10rem;
+}
+input{ display:none; }
+
+.content { 
+        width:95%;
+        margin:auto;
+}
+.content>div { 
+        display:none;
+}
+.content>div:nth-child(1) { 
+        display:block; 
+}
+.content .box.checked{
+        display:block;
+}
+label{
+        cursor:pointer;
+        display:block;
+        width:433px;
+        height:200px;
+        text-align:center;
+        line-height:200px;
+        font-size:58px;
+        font-weight:bold;
+        color:var(--text-color10);
+}
+.tabs input:nth-child(1):checked ~ .click li:nth-child(1) label{ 
+        color:var(--text-color04);
+        text-shadow:0 0 60px var(--text-color03);
+        font-size:64px;
+}
+.tabs input:nth-child(2):checked ~ .click li:nth-child(2) label{ 
+        color:var(--text-color04);
+        text-shadow:0 0 60px var(--text-color03);
+        font-size:64px;
+}
+.tabs input:nth-child(3):checked ~ .click li:nth-child(3) label{ 
+        color:var(--text-color04);
+        text-shadow:0 0 60px var(--text-color03);
+        font-size:64px;
+}
+
+/* content */
+.content{
+        color:var(--subBg-color);
+}
+.ulBox{ 
+        display:flex; 
+        gap:2rem;
+        padding-left:10rem;
+        margin-bottom:10rem;
+}
+.ulBox .list{
+        margin-right:5rem;
+}
+.contentBox{ 
+        width:90%; 
+        margin:auto; 
+        display:flex; 
+        flex-direction:column; 
+}
+.contentBox .right{ 
+        align-self:flex-end; 
+}
+.contentBox .img{ 
+        width:400px; 
+        height:400px; 
+        position:relative; 
+        background-repeat:no-repeat; 
+        background-size:cover; 
+}
+.contentBox .img .text{ 
+        width:340px;
+        position:absolute; 
+        font-size:24px;
+}
+.text .smallFont{
+        font-weight:normal;
+        font-size:20px;
+}
+.shine{
+        font-weight:bold;
+        color:var(--subBg-color);
+        opacity:0.3;
+        animation: shine 2s infinite alternate;
+}
+@keyframes shine {
+        100% {opacity:1};
+}
+/* content first 덕수궁 */
+.first{
+        margin-bottom:25rem;
+}
+.first .no1{
+        width:80%;
+        margin-bottom:20rem;
+}
+.first .no1 .img{
+        width:195px;
+        height:225px;
+}
+.first .no1 .text{
+        right:-350px;
+        bottom:50px;
+}
+.first .no1 .left{
+        text-align:right;
+        left:-350px;
+        bottom:60px;
+}
+.first .no2 .text{
+        width:350px;
+        right:-390px;
+        bottom:130px;
+}
+.first .no2 .left{
+        text-align:right;
+        left:-390px;
+}
+
+/* content second 창경궁 */
+.rowBox{ 
+        flex-direction:row; 
+        justify-content:center; 
+        gap:10rem;
+        margin-bottom:10rem;
+}
+.second{
+        margin-bottom:25rem;
+}
+.second .no1{
+        width:80%;
+        margin-bottom:15rem;
+}
+.second .no1 .img{
+        width:275px;
+        height:320px;
+}
+.second .no1 .text{
+        right:-330px;
+        bottom:170px;
+}
+.second .no1 .left{
+        text-align:right;
+        left:-285px;
+}
+.second .no2{
+        margin-bottom:10rem;
+}
+.second .no2 .text{
+        right:-360px;
+        bottom:110px;
+}
+.second .no2 .left{
+        text-align:right;
+        left:-360px;
+}
+.second .sub{
+        font-size:40px;
+        text-align:center;
+        margin-bottom:5rem;
+}
+
+/* content third 낙산*/
+.third{
+        margin-bottom:25rem;
+}
+.third .no1 {
+        margin-bottom:20rem;
+}
+.third .no1 .text{
+        right:-360px;
+        bottom:170px;
+}
+.third .no1 .left{
+        text-align:right;
+        left:-360px;
+}
+.innerContents{ 
+        width:90%; 
+        margin:auto; 
+        display:flex; 
+        justify-content:center; 
+        gap:10rem;
+        margin-bottom:10rem;
+}
+.innerContents .sub{
+        transform:translateY(29px);
+}
+.innerContents .sub>h3{
+        width:400px;
+        height:60px;
+        font-size:40px;
+        font-weight:normal;
+        margin:auto;
+        text-align:center;
+        background:linear-gradient(45deg,transparent 3%, var(--text-color06) 0) ;
+}
+.innerRect{
+        border:1px solid var(--subBg-color);
+        padding:5rem 2rem 2rem;
+        margin-bottom:3rem;
+}
+.rect{
+        font-size:24px;
+        margin-bottom:2.5rem;
+}
+.innerRect .margin{
+        margin-bottom:5rem;
+}
+                /* content text 꾸미기 */
+.content .box>h2{
+        text-align:center;
+        font-size:50px;
+        font-weight:normal;
+        margin-bottom:15rem;
+        color:var(--link-color);
+}
+
+.ulBox>.list{
+        width:100px;
+        font-size:64px;
+        font-family: GyeonggiBatang_Bold;
+        line-height:115px;
+        text-align:center;
+        background:linear-gradient(-45deg, var(--text-color07) 8%, transparent 0);
+        background-position:0 -10px;
+        background-repeat:no-repeat;
+        color:var(--text-color07);
+}
+.ulBox>.bgw{
+        width:150px;
+        background-position:0 -10px;
+}
+.ulBox>.listTitle{
+        font-size:40px;
+        color:var(--text-color07);
+}
+.oneRow p{
+        line-height:115px;
+}
+
+                /*덕수궁 이미지*/
+.contentBox .image01{ 
+        background-image: url(../images/program01_img5.png);
+}
+.contentBox .image02{ 
+        background-image: url(../images/program01_img6.png);
+}
+.contentBox .image03{ 
+        background-image: url(../images/program01_img7.png);
+}
+.contentBox .image04{ 
+        background-image: url(../images/program01_img8.png);
+}
+.contentBox .image05{ 
+        background-image: url(../images/program01_img9.png);
+}
+                /*창경궁 이미지*/
+.contentBox .image11{ 
+        background-image: url(../images/program02_img5.png);
+}
+.contentBox .image12{ 
+        background-image: url(../images/program02_img6.png);
+}
+.contentBox .image13{ 
+        background-image: url(../images/program02_img7.png);
+}
+.contentBox .image14{ 
+        background-image: url(../images/program02_img8.png);
+}
+.contentBox .image15{ 
+        background-image: url(../images/program02_img9.png);
+}
+.contentBox .image16{ 
+        background-image: url(../images/program02_img10.png);
+}
+.contentBox .image17{ 
+        background-image: url(../images/program02_img11.png);
+}
+.contentBox .image18{ 
+        background-image: url(../images/program02_img12.png);
+}
+                /*낙산 이미지*/
+.contentBox .image21{ 
+        background-image: url(../images/program03_img1.png);
+}
+.contentBox .image22{ 
+        background-image: url(../images/program03_img2.png);
+}
+.contentBox .image23{ 
+        background-image: url(../images/program03_img3.png);
+}
+.contentBox .image24{ 
+        background-image: url(../images/program03_img4.png);
+}

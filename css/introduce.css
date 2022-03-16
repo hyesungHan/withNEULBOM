@@ -1,0 +1,167 @@
+section{ 
+    margin-bottom:15rem; 
+}
+section .Box{ 
+    width:85%; 
+    margin:auto;
+    text-align:center; 
+    padding:0 1rem;
+    color:var(--text-color07);
+}
+.intro{ 
+    font-size:26px; 
+    margin-bottom:15rem;
+}
+.borderBox{
+    width:75%;
+    height:140px;
+    margin:auto;
+    background:linear-gradient(45deg, transparent 4%, var(--text-color06) 0);
+    background-position:0px -8px;
+    background-repeat:no-repeat;
+    border-bottom:2px solid var(--text-color06);
+    margin-bottom:5rem;
+}
+.borderBox>h1{
+    display:inline-block;
+    line-height:138px;
+    font-size:48px;
+}
+.intro>div:nth-child(2){
+    width:75%;
+    margin:auto;
+    background:url(../images/animal.png);
+    background-repeat:no-repeat;
+    background-position:510px 35px;
+    background-size:40%;
+}
+.introBox{
+    width:55%;
+    padding:5rem 2rem 0;
+    font-size:38px;
+    margin-bottom:3rem;
+
+}
+.introBox>span{
+    display:block;
+    font-family:InkLipquid;
+}
+.introBox .L{
+    text-align:left;
+}
+.introBox .R{
+    text-align:right;
+}
+.introBox>div{
+    font-size:22px;
+}
+.introText{
+    padding:0 1rem;
+    width:55%;
+    font-size:22px;
+    text-align:left;
+    margin-bottom:3rem;
+}
+.accordion{ 
+    width:75%; 
+    margin:0 auto 15rem; 
+    background-color:var(--subBg-color);
+}
+.accordion .ti{ 
+    height:65px;
+    line-height:65px;
+    font-size:30px; 
+    margin-bottom:2px; 
+    background-color:var(--text-color06);
+    /* background-color:#14213d; */
+    /* background-color:#02283a; */
+    cursor: pointer;
+    display:flex;
+    justify-content:flex-start;
+}
+.ti span{
+    display:inline-block;
+}
+.ti .number{
+    width:43%;
+}
+.number::after{
+    content:'';
+    display:block;
+    width:1px;
+    height:70%;
+    background-color:var(--subBg-color);
+    position:relative;
+    left:80%;
+    bottom:85%;
+}
+.acco{ 
+    height:250px; 
+    font-size:24px; 
+    padding:2rem 0; 
+    display:none;
+    color:var(--text-color06);
+}
+.acco .scroll{ 
+    height:200px; 
+    overflow-y:auto; 
+}
+.rightBox{
+    float:right;
+    text-align:left;
+    width:70%;
+}
+.scroll>.rightBox{
+    width:82%;
+}
+.acco.active{ 
+    display:block; 
+}
+
+/* acc 내용 */
+.logoImg{
+    display:flex;
+    justify-content:center;
+    gap:3rem;
+}
+.logoImg img{
+    display:block;
+    height:80px;
+}
+.fontS{
+    font-size:20px;
+}
+.bold{
+    font-weight:bold;
+}
+/* 달빛산책 프로그램 이미지 */
+.images{
+    width:100%;
+    background:linear-gradient(45deg, transparent 3%, var(--text-color06) 0);
+    background-position:0px -8px;
+    background-repeat:no-repeat;
+}
+.btImg{ 
+    display:flex; 
+    justify-content:space-between;
+    margin-bottom:15rem;
+}
+.btImg>div{ 
+    width:350px; 
+    height:350px; 
+    background-size:cover; 
+}
+.btImg div:nth-child(1){ 
+    background-image:url(../images/intro01.png); 
+}
+.btImg div:nth-child(2){ 
+    background-image:url(../images/intro02.png); 
+}
+.btImg div:nth-child(3){ 
+    background-image:url(../images/intro03.png); 
+}
+.btImg a{
+    display:block;
+    width:350px;
+    height:350px;
+}

@@ -1,0 +1,63 @@
+@charset 'utf=8';
+
+/* font */
+@font-face {
+    font-family:'GowunDodum-Regular' ;
+    src: url(../font/GowunDodum-Regular.ttf);
+}
+@font-face {
+    font-family:'GyeonggiBatang_Bold' ;
+    src: url(../font/GyeonggiBatang_Bold.ttf);
+}
+@font-face {
+    font-family:'GyeonggiBatang_Regular' ;
+    src: url(../font/GyeonggiBatang_Regular.ttf);
+}
+@font-face {
+    font-family:'Kdg_Light' ;
+    src: url(../font/Kdg_Light.ttf);
+}
+@font-face {
+    font-family:'Kdg_Medium' ;
+    src: url(../font/Kdg_Medium.ttf);
+}
+@font-face {
+    font-family: 'InkLipquid';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+:root{ font-size:12px; }
+
+*{ margin:0; padding:0; box-sizing:border-box; }
+a{ text-decoration:none; font-family:GowunDodum-Regular; }
+li{ list-style:none; }
+body{ 
+    /* background:linear-gradient(#00030C, #000F1F, #03192E, #011428, #000F1F, #010916  ); */
+    background:linear-gradient(#000F1F, #03192E );
+    font-family:GowunDodum-Regular;
+    --background-color:#00030C;
+    --subBg-color:#E8E8E8;
+    --link-color:#a0a6bc;
+    --banner-text-color:#8696BC;
+    --text-color01:#E0CDAE;
+    --text-color02:#FEEDCD;
+    --text-color03:#FEEFC7;
+    --text-color04:#FEFBE9;
+    --text-color05:#F8D79D;
+    --text-color06:#353842;
+    --text-color07:#c4c6ce;
+    --text-color08:#EADACD;
+    --text-color09:#BAA796;
+    --text-color10:#1C2834;
+    --text-color11:#242730;
+    --text-color12:#76777A;
+    --text-color13:#B7B8BC;
+
+
+
+}

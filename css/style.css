@@ -1,0 +1,120 @@
+@import url(./reset.css);
+/* 공통디자인 예약안내, footer */
+
+/*Bottom*/
+.Bottom { 
+    margin-bottom:15rem;
+}
+.Bottom>.inner{
+    width:800px; 
+    margin:auto; 
+    text-align:center;
+    color:var(--text-color07);
+    
+}
+.Bottom .top{ 
+    margin-bottom:3rem; 
+}
+.Bottom h2{ 
+    font-size:60px; 
+    color:var(--text-color04);
+    text-shadow:0 0 50px var(--text-color09);
+}
+.Bottom .bottom{ 
+    font-size:24px; 
+    margin-bottom:3rem; 
+}
+.Bottom h3{ 
+    font-size:30px;
+    color:var(--subBg-color);
+    margin-bottom:1rem;
+}
+.btn{ 
+    width:260px; 
+    height:60px; 
+    margin:auto; 
+    border-radius:30px; 
+}
+.btn a{ 
+    display:block;
+    width:100%;
+    font-size:34px;
+    background-color:var(--text-color06); 
+    color:var(--text-color07);
+    text-align:center; 
+    line-height:60px; 
+    border-radius:30px; 
+}
+.btn a:hover{ 
+    background-color:var(--text-color07); 
+    color:var(--text-color06); 
+}
+
+/*footer*/
+
+footer{ 
+    width:1440px; 
+    height:310px; 
+    margin:auto; 
+    display:flex;
+}
+footer .logo{ 
+    margin:auto; 
+}
+
+.information{ 
+    width:calc(1440px - 400px); 
+}
+.scrollTop{
+    height:calc(310px / 2);
+
+}
+.topBtn{
+    display:flex;
+    justify-content:flex-end;
+    gap:2.5rem;
+    color:var(--link-color); 
+    font-size:22px;
+    transform:translateY(10rem) translateX(-5rem);
+}
+.topBtn>a{
+    display:block;
+    width:40px;
+    height:40px;
+    border-radius:100%;
+    background-color:var(--subBg-color);
+    transform:translateY(-10px);
+    text-align:center;
+}
+.topBtn img{
+    width:90%;
+    vertical-align:middle;
+}
+.scrollTop::after{
+    content:'';
+    display:block;
+    width:95%;
+    height:1px;
+    background-color:var(--subBg-color);
+    position:relative;
+    top:11rem;
+}
+
+.wrap{ 
+    display:flex; 
+    justify-content:flex-end;
+    gap:2.5rem;
+    transform:translateY(3rem) translateX(-5rem);
+}
+.wrap p{ 
+    color:var(--link-color); 
+    font-size:22px; 
+}
+.wrap ul{ 
+    display:flex; 
+    justify-content:space-around;
+}
+.wrap div{ 
+    width:40px; 
+    height:40px; 
+}
