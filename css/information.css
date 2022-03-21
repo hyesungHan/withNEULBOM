@@ -1,4 +1,4 @@
-section .box{ 
+section .tableBox{ 
     width:1300px; 
     margin:0 auto 7rem; 
     color:var(--text-color07);
@@ -8,7 +8,7 @@ section .box{
     display:flex; 
     flex-direction:column;
     align-items:center;
-    margin-bottom:10rem;
+    margin-bottom:20rem;
 }
 /* 축의 반대방향으로 center로 정렬하겠다 */
 
@@ -16,9 +16,9 @@ section .box{
     gap:3.5rem;
 }
 .borderBox{
-    width:450px;
+    width:30%;
     height:100px;
-    background:linear-gradient(45deg,transparent 5%, var(--text-color06) 0) ;
+    background:linear-gradient(45deg,transparent 5%, #4A4453 0) ;
     background-repeat:no-repeat;
     background-position:0 -8px;
     border-bottom:2px solid var(--text-color06);
@@ -37,24 +37,25 @@ section .box{
 }
 
 
-.box .inner{ 
+.tableBox .inner{ 
     padding:2rem 0; 
 }
 .inner>table{
-    border-spacing:0 2rem;
+    border-spacing:0 0.5rem;
 }
 .inner table tr:nth-child(2n+1){
-    background-color: var(--text-color11);
+    /* background-color: #4A4453; */
 }
 .inner table tr:nth-child(2n){
-    background-color: var(--text-color06);
+    /* background-color: #AFA8BA; */
 }
-.notice .inner th{ 
+.notice th{ 
     width:10rem; 
     font-size:50px;
     font-weight:normal;
+    line-height:90px;
 }
-.notice .inner td{ 
+.notice td{ 
     width:67rem;
 }
 .inner td{ 
@@ -63,12 +64,13 @@ section .box{
 
 
 
-.qa .inner th{ 
-    width:20rem; 
+.qa th{ 
+    width:25rem; 
     font-size:30px;
+    line-height:80px;
 }
-.qa .inner td{ 
-    width:52rem;
+.qa td{ 
+    width:53rem;
 }
 .qa th b{ 
     display:block; 

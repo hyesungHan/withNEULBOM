@@ -51,10 +51,10 @@ body{
                 linear-gradient(217deg, rgba(0,15,31,1) 30%, rgba(0,15,31,0) 70.71%),
                 linear-gradient(-127deg, rgba(254,255,199,.8) 40%, rgba(0,255,0,0) 70.71%),
                 linear-gradient(336deg, rgba(24,4,40,1) 30%, rgba(0,0,255,0) 70.71%); */
-    background:
+    /* background:
                 linear-gradient(217deg, rgba(0,15,31,1) 30%, rgba(0,15,31,0) 70.71%),
                 linear-gradient(-127deg, rgba(254,255,199,.8) 40%, rgba(0,255,0,0) 60.71%),
-                linear-gradient(356deg, rgba(16,1,32,1) 30%, rgba(0,0,255,0) 70.71%);
+                linear-gradient(356deg, rgba(16,1,32,1) 30%, rgba(0,0,255,0) 70.71%); */
     font-family:GowunDodum-Regular;
     --background-color:#00030C;
     --subBg-color:#E8E8E8;
@@ -73,9 +73,13 @@ body{
     --text-color11:#242730;
     --text-color12:#76777A;
     --text-color13:#B7B8BC;
+    --text-color14:#000F1F;
 
     --thema-color01:#755894;
     --thema-color02:#5ABFBC;
+
+    --index-inner-color01:#ACAC9A;
+    --index-inner-color02:#F1F1E6;
 
 
 

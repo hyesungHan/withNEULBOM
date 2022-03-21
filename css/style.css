@@ -5,7 +5,7 @@
 .Bottom { 
     margin-bottom:15rem;
 }
-.Bottom>.inner{
+.Bottom>.reservation{
     width:800px; 
     margin:auto; 
     text-align:center;
@@ -72,7 +72,7 @@ footer .logo{
 .topBtn{
     display:flex;
     justify-content:flex-end;
-    gap:2.5rem;
+    gap:1.5rem;
     color:var(--link-color); 
     font-size:22px;
     transform:translateY(10rem) translateX(-5rem);
@@ -82,7 +82,7 @@ footer .logo{
     width:40px;
     height:40px;
     border-radius:100%;
-    background-color:var(--subBg-color);
+    /* background-color:var(--subBg-color); */
     transform:translateY(-10px);
     text-align:center;
 }
