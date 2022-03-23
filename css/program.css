@@ -4,20 +4,22 @@ section{
         margin-bottom:2rem; 
 }
 .tabs{
-        width:1300px;
+        width:75%;
         margin:auto; 
         margin-bottom:7rem;
 }
 .tabs ul{ 
-        width:100%; 
         display:flex; 
-        justify-content:space-between;
+        justify-content:space-evenly;
         margin-bottom:10rem;
+}
+.click li{
+        border: outset rgba(44,56,73,1);
 }
 input{ display:none; }
 
 .content { 
-        width:95%;
+        width:75%;
         margin:auto;
 }
 .content>div { 
@@ -32,28 +34,54 @@ input{ display:none; }
 label{
         cursor:pointer;
         display:block;
-        width:433px;
+        width:465px;
         height:200px;
         text-align:center;
         line-height:200px;
         font-size:58px;
         font-weight:bold;
-        color:var(--text-color10);
+        color: #2c3849;
+        background-color: #596578;
+        letter-spacing: .1rem;
+        text-shadow: 
+          -1px -1px 1px #000f1f, 
+          2px 2px 1px #596578;
 }
 .tabs input:nth-child(1):checked ~ .click li:nth-child(1) label{ 
         color:var(--text-color04);
-        text-shadow:0 0 60px var(--text-color03);
+        letter-spacing: .05em;
+        text-shadow: 
+                2px 2px 0px var(--text-color05), 
+                7px 7px 0px #2c3849;
         font-size:64px;
+        background-color:transparent;
 }
 .tabs input:nth-child(2):checked ~ .click li:nth-child(2) label{ 
         color:var(--text-color04);
-        text-shadow:0 0 60px var(--text-color03);
+        letter-spacing: .05em;
+        text-shadow: 
+                2px 2px 0px var(--text-color05), 
+                7px 7px 0px #2c3849;
         font-size:64px;
+        background-color:transparent;
 }
 .tabs input:nth-child(3):checked ~ .click li:nth-child(3) label{ 
         color:var(--text-color04);
-        text-shadow:0 0 60px var(--text-color03);
+        letter-spacing: .05em;
+        text-shadow: 
+                2px 2px 0px var(--text-color05), 
+                7px 7px 0px #2c3849;
         font-size:64px;
+        background-color:transparent;
+}
+.tabs input:nth-child(1):checked ~ .click li:nth-child(1){ 
+        border: inset rgba(44,56,73,1);
+}
+.tabs input:nth-child(2):checked ~ .click li:nth-child(2){ 
+        border: inset rgba(44,56,73,1);
+}
+.tabs input:nth-child(3):checked ~ .click li:nth-child(3){ 
+        border: inset rgba(44,56,73,1);
 }
 
 /* content */
@@ -98,7 +126,7 @@ label{
         font-weight:bold;
         color:var(--subBg-color);
         opacity:0.3;
-        animation: shine 2s infinite alternate;
+        animation: shine 1s infinite alternate;
 }
 @keyframes shine {
         100% {opacity:1};
