@@ -18,21 +18,23 @@ section .tableBox{
 .borderBox{
     width:30%;
     height:100px;
-    background:linear-gradient(45deg,transparent 5%, #4A4453 0) ;
+    background:linear-gradient(45deg,transparent 5%, var(--index-inner-color01) 0) ;
     background-repeat:no-repeat;
     background-position:0 -8px;
-    border-bottom:2px solid var(--text-color06);
+    border-bottom:2px solid var(--index-inner-color01);
     text-align:center;
+    color:var(--text-color06);
 }
 .noti::after{
     content:'구매 후 확인해주세요';
     display:block;
     font-size:26px;
-    transform:translateY(5px);
+    transform:translateY(10px);
+    color:var(--text-color07);
 }
 .table h2{
     display:inline-block;
-    line-height:98px;
+    line-height:90px;
     font-size:50px;
 }
 
@@ -43,11 +45,13 @@ section .tableBox{
 .inner>table{
     border-spacing:0 0.5rem;
 }
-.inner table tr:nth-child(2n+1){
-    /* background-color: #4A4453; */
-}
+/* .inner table tr:nth-child(2n+1){
+
+} */
 .inner table tr:nth-child(2n){
-    /* background-color: #AFA8BA; */
+    background-color: var(--index-inner-color01);
+    color:var(--text-color14);
+    opacity:0.7;
 }
 .notice th{ 
     width:10rem; 

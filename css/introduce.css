@@ -13,32 +13,32 @@ section .Box{
     margin-bottom:15rem;
 }
 .borderBox{
-    width:75%;
+    width:50%;
     height:140px;
     margin:auto;
-    background:linear-gradient(45deg, transparent 4%, var(--text-color06) 0);
+    background:linear-gradient(45deg, var(--index-inner-color01) 4%, transparent 0);
     background-position:0px -8px;
     background-repeat:no-repeat;
-    border-bottom:2px solid var(--text-color06);
+    border-bottom:2px solid var(--index-inner-color01);
     margin-bottom:5rem;
+    color:var(--index-inner-color02);
 }
 .borderBox>h1{
     display:inline-block;
-    line-height:138px;
+    line-height:160px;
     font-size:48px;
 }
 .intro>div:nth-child(2){
     width:75%;
     margin:auto;
-    background:url(../images/animal.png);
-    background-repeat:no-repeat;
-    background-position:89% 0%;
-    background-size:32%
+    position:relative;
+}
+.introBox, .introText{
+    width:60%;
 }
 .introBox{
-    width:55%;
-    padding:5rem 2rem 0;
-    font-size:46px;
+    padding-top:5rem;
+    font-size:44px;
     margin-bottom:3rem;
 }
 .introBox>span{
@@ -56,14 +56,18 @@ section .Box{
 }
 .introText{
     padding:0 1rem;
-    width:55%;
     font-size:22px;
     text-align:left;
     margin-bottom:3rem;
 }
-/* .animal>img{
-    width:35%;
-} */
+.animal{
+    position:absolute;
+    right:0;
+    bottom:0;
+}
+.animal img{
+    width:400px;
+}
 .accordion{ 
     width:75%; 
     margin:0 auto 15rem; 
@@ -74,10 +78,11 @@ section .Box{
     line-height:65px;
     font-size:30px; 
     margin-bottom:2px; 
-    background-color:var(--text-color06);
+    background-color:var(--index-inner-color01);
     cursor: pointer;
     display:flex;
     justify-content:flex-start;
+    color:var(--text-color10);
 }
 .ti span{
     display:inline-block;
@@ -137,8 +142,8 @@ section .Box{
 }
 /* 달빛산책 프로그램 이미지 */
 .images{
-    width:100%;
-    background:linear-gradient(45deg, transparent 3%, var(--text-color06) 0);
+    width:85%;
+    background:linear-gradient(45deg, var(--index-inner-color01) 3%, transparent 0);
     background-position:0px -8px;
     background-repeat:no-repeat;
 }
