@@ -49,6 +49,7 @@ label{
         text-shadow: 
           -1px -1px 1px #000f1f, 
           2px 2px 1px #596578;
+        opacity:0.6;
 }
 .tabs input:nth-child(1):checked ~ .click li:nth-child(1) label{ 
         color:var(--text-color04);
@@ -58,6 +59,7 @@ label{
                 7px 7px 0px #2c3849;
         font-size:64px;
         background-color:transparent;
+        opacity:1;
 }
 .tabs input:nth-child(2):checked ~ .click li:nth-child(2) label{ 
         color:var(--text-color04);
@@ -67,6 +69,7 @@ label{
                 7px 7px 0px #2c3849;
         font-size:64px;
         background-color:transparent;
+        opacity:1;
 }
 .tabs input:nth-child(3):checked ~ .click li:nth-child(3) label{ 
         color:var(--text-color04);
@@ -76,6 +79,7 @@ label{
                 7px 7px 0px #2c3849;
         font-size:64px;
         background-color:transparent;
+        opacity:1;
 }
 .tabs input:nth-child(1):checked ~ .click li:nth-child(1){ 
         border: inset rgba(44,56,73,1);
