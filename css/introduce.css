@@ -1,6 +1,9 @@
 section{ 
     margin-bottom:15rem; 
 }
+section .title{
+    margin-bottom:20rem;
+}
 section .Box{ 
     width:85%; 
     margin:auto;

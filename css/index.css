@@ -91,16 +91,24 @@ header .line{
         font-size:80px; 
         font-family:GyeonggiBatang_Bold; 
         color:var(--text-color04);
-        text-shadow:0 0 5px var(--text-color03);
         animation:shadow 5s forwards;
 }
 
 @keyframes shadow{ 
+        20% { text-shadow:none;
+        }
+        50% { text-shadow:
+                0 0 5px var(--text-color03),
+                0 0 6px rgba(234,218,205,.6),
+                0 0 10px rgba(254,239,199,.6),
+                0 0 20px rgba(248,215,157,.6),
+                0 0 35px rgba(254,239,199,.7);
+        }
         100%{ text-shadow:
-                0 0 6px rgba(234,218,205,.8),
-                0 0 10px rgba(254,239,199,.8),
-                0 0 20px rgba(248,215,157,.8),
-                0 0 35px rgba(254,239,199,.8),
+                0 0 6px rgba(234,218,205,.5),
+                0 0 10px rgba(254,239,199,.5),
+                0 0 20px rgba(248,215,157,.5),
+                0 0 35px rgba(254,239,199,.5),
                 0 0 60px rgba(254,239,199,.8),
                 0 0 70px rgba(254,237,205,.8),
                 0 0 85px rgba(254,237,205,.8); 

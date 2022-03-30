@@ -3,6 +3,9 @@
 section{ 
         margin-bottom:2rem; 
 }
+.title::after{
+        display:none;
+}
 .tabs{
         width:75%;
         margin:auto; 
