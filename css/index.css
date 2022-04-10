@@ -6,7 +6,8 @@ body{
 }
         /*header*/
 header{ 
-        width:1440px; 
+        /* width:1440px; */
+        width:90%; 
         height:600px; 
         margin:auto; 
         position:relative; 
@@ -120,7 +121,7 @@ header .line{
 .banner>div{ 
         position:absolute; 
         top:0; 
-        right:210px; 
+        right:120px; 
         opacity:0;
         transform:rotate(45deg);
         transform-origin:bottom center;
@@ -170,7 +171,8 @@ header .line{
 
         /* 본문 */
 section{ 
-        width:1440px; 
+        /* width:1440px;  */
+        width:100%; 
         margin:auto; 
 }
 
@@ -179,13 +181,14 @@ section{
         color:var(--text-color07);
 }
 .content01 .point{ 
-        width:70%;
+        /* width:70%; */
+        width:75%;
         margin:15rem auto 10rem;
         display:flex; 
         flex-direction:column; 
         align-items:center;
         gap:1rem;
-        font-size:80px;
+        font-size:60px;
         font-family:Kdg_Medium;
 }
 .content01 .word01{ 
@@ -196,11 +199,11 @@ section{
 }
 
 .content01 .Award{ 
-        width:900px;
+        width:70%;
         margin:0 auto 5rem;
 }
 .content01 .award{
-        font-size:40px;
+        font-size:34px;
         border: 1px solid var(--text-color07);
         border-radius: 30px;
         text-align:center;
@@ -225,9 +228,12 @@ section{
         color:var(--subBg-color);
 }
 .program{ 
-        width:1025px;
+        /* width:1025px; */
+        width:80%;
         height:500px;
         position:relative;
+        background-position: center center;
+        background-repeat: no-repeat;
 }
 
 .program01{
@@ -248,24 +254,30 @@ section{
         margin-bottom:15rem;
 }
 .program .inner{ 
-        width:500px; 
-        height:430px; 
+        /* width:500px;  */
+        width:400px; 
+        /* height:430px;  */
+        height:360px; 
         position:absolute; 
         bottom:-35px;
         text-align:center;
 }
 .right{ 
-        right:-400px;
+        /* right:-400px; */
+        right:-225px;
         background:linear-gradient(-45deg, transparent 11%, var(--index-inner-color02) 0); 
 }
 .left{ 
-        left:-400px;
+        /* left:-400px; */
+        left:-225px;
         background:linear-gradient(45deg, transparent 11%, var(--index-inner-color02) 0); 
 }
 .inner span{ 
         display:block;
-        width:95px;
-        height:95px;
+        /* width:95px; */
+        width:80px;
+        /* height:95px; */
+        height:80px;
         position:absolute; 
         right:0; 
         bottom:0;
@@ -285,11 +297,11 @@ section{
 }
 .inner h2{
         color:var(--text-color14);
-        font-size:56px; 
+        font-size:46px; 
         padding:3.1rem 0 1.2rem;
 }
 .inner h3{ 
-        font-size:26px; 
+        font-size:22px; 
         margin-bottom:10px; 
         color:var(--text-color10);
 }
@@ -297,8 +309,8 @@ section{
         margin:auto;
 }
 .script div{ 
-        font-size:24px; 
+        font-size:20px; 
         text-align:justify;
-        padding:0 2.5rem;
+        padding:0 2rem;
         color:var(--text-color06);
 }

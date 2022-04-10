@@ -7,7 +7,7 @@ section{
         display:none;
 }
 .tabs{
-        width:75%;
+        /* width:75%; */
         margin:auto; 
         margin-bottom:7rem;
 }
@@ -17,12 +17,14 @@ section{
         margin-bottom:10rem;
 }
 .click li{
+        flex:1;
         border: outset rgba(44,56,73,1);
 }
 input{ display:none; }
 
 .content { 
-        width:75%;
+        /* width:75%; */
+        width:95%;
         margin:auto;
 }
 .content>div { 
@@ -37,7 +39,7 @@ input{ display:none; }
 label{
         cursor:pointer;
         display:block;
-        width:465px;
+        /* width:465px; */
         height:200px;
         text-align:center;
         line-height:200px;

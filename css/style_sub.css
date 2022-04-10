@@ -7,7 +7,8 @@ body{
     }
 /*header*/
 header{ 
-        width:1440px; 
+        /* width:1440px;  */
+        width:90%; 
         height:150px; 
         margin:0 auto 7rem; 
         display:flex; 
@@ -125,8 +126,8 @@ section .title{
                 0 0 65px rgba(255,255,255,0.3),
                 0 0 90px rgba(255,255,255,0.3); */
         position:absolute;
-        right:150px;
-        top:30px;
+        right:70px;
+        top:60px;
         opacity:0.1; 
         animation:moonShadow 2s forwards; 
 }
@@ -134,7 +135,7 @@ section .title{
 @keyframes moonShadow {
         100%{ 
                 opacity:1; 
-                right:200px; 
+                right:90px; 
                 top:0; 
                 box-shadow:
                         0 0 5px rgba(254,237,205,.5),
