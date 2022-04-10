@@ -17,7 +17,7 @@ section .Box{
     margin-bottom:15rem;
 }
 .borderBox{
-    width:50%;
+    width:65%;
     height:140px;
     margin:auto;
     background:linear-gradient(45deg, var(--index-inner-color01) 4%, transparent 0);
@@ -30,10 +30,10 @@ section .Box{
 .borderBox>h1{
     display:inline-block;
     line-height:160px;
-    font-size:48px;
+    font-size:40px;
 }
 .intro>div:nth-child(2){
-    width:70%;
+    width:85%;
     margin:auto;
     position:relative;
 }
@@ -73,7 +73,7 @@ section .Box{
     width:400px;
 }
 .accordion{ 
-    width:75%; 
+    width:85%; 
     margin:0 auto 15rem; 
     background-color:var(--subBg-color);
 }
@@ -146,7 +146,7 @@ section .Box{
 }
 /* 달빛산책 프로그램 이미지 */
 .images{
-    width:85%;
+    width:95%;
     background:linear-gradient(45deg, var(--index-inner-color01) 3%, transparent 0);
     background-position:0px -8px;
     background-repeat:no-repeat;
@@ -157,8 +157,8 @@ section .Box{
     margin-bottom:15rem;
 }
 .btImg>div{ 
-    width:350px; 
-    height:350px; 
+    width:250px; 
+    height:250px; 
     background-size:cover; 
 }
 .btImg div:nth-child(1){ 
@@ -172,6 +172,6 @@ section .Box{
 }
 .btImg a{
     display:block;
-    width:350px;
-    height:350px;
+    width:250px;
+    height:250px;
 }

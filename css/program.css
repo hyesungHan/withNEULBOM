@@ -145,7 +145,7 @@ label{
         margin-bottom:25rem;
 }
 .first .no1{
-        width:80%;
+        width:90%;
         margin-bottom:20rem;
 }
 .first .no1 .img{
@@ -175,14 +175,15 @@ label{
 .rowBox{ 
         flex-direction:row; 
         justify-content:center; 
-        gap:10rem;
+        /* gap:10rem; */
+        gap:2rem;
         margin-bottom:10rem;
 }
 .second{
         margin-bottom:25rem;
 }
 .second .no1{
-        width:80%;
+        width:90%;
         margin-bottom:15rem;
 }
 .second .no1 .img{
@@ -230,11 +231,13 @@ label{
         left:-360px;
 }
 .innerContents{ 
-        width:90%; 
+        /* width:90%;  */
+        width:100%; 
         margin:auto; 
         display:flex; 
         justify-content:center; 
-        gap:10rem;
+        /* gap:10rem; */
+        gap:5px;
         margin-bottom:10rem;
 }
 .innerContents .sub{
@@ -257,6 +260,10 @@ label{
 .rect{
         font-size:24px;
         margin-bottom:2.5rem;
+}
+.innerImg{
+        width:100%;
+        height:auto;
 }
 .innerRect .margin{
         margin-bottom:5rem;
