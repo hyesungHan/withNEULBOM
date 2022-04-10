@@ -41,7 +41,7 @@ section .Box{
     width:60%;
 }
 .introBox{
-    padding-top:5rem;
+    padding-top:1rem;
     font-size:44px;
     margin-bottom:3rem;
 }
@@ -70,7 +70,7 @@ section .Box{
     bottom:0;
 }
 .animal img{
-    width:400px;
+    width:320px;
 }
 .accordion{ 
     width:85%; 
@@ -157,8 +157,8 @@ section .Box{
     margin-bottom:15rem;
 }
 .btImg>div{ 
-    width:250px; 
-    height:250px; 
+    width:200px; 
+    height:200px; 
     background-size:cover; 
 }
 .btImg div:nth-child(1){ 
@@ -172,6 +172,6 @@ section .Box{
 }
 .btImg a{
     display:block;
-    width:250px;
-    height:250px;
+    width:200px;
+    height:200px;
 }
